@@ -1,4 +1,4 @@
 # lern-in-depth
-Embedded System Deploma
+Embedded System Online Deploma
 
 ## Abdulrhman Alaa-Eldin
