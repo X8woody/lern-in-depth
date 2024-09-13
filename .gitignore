@@ -1,0 +1,6 @@
+*.tmp.driveupload
+.tmp.drivedownload
+.settings
+/Debug/
+.cproject
+.projects

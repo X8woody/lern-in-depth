@@ -1,0 +1,5 @@
+20:46:02 **** Rebuild of configuration Debug for project Example_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Printing_Sentence.o "..\\Printing_Sentence.c" 
+gcc -o Example_1.exe Printing_Sentence.o 
+Info: Nothing to build for Example_1
