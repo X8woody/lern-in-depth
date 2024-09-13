@@ -14,10 +14,15 @@ int main(){
     fflush(stdout);
     scanf("%f", &integer);
     carrier = (int)integer;
-    if(carrier == integer){
-    	printf("You entered: %d ",carrier);
+    if(carrier == integer)
+    {
+    	if(carrier != 0)
+    		printf("You entered: %d ",carrier);
+    	else
+    		printf("You didn't enter an integer number \n");
     }
-    else{
+    else
+    {
     	printf("You didn't enter an integer number \n");
     }
 	return 0;
