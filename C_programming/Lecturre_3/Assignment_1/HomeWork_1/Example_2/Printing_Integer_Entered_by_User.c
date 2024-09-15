@@ -1,5 +1,5 @@
 /*
- * Printing_Sentence.c
+ * Printing_Integer_Entered_by_User.c
  *
  *  Created on: Sep 13, 2024
  *      Author: Abdulrhman Alaa-Eldin

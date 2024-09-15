@@ -1,5 +1,5 @@
 /*
- * Printing_Sentence.c
+ * Multiplying_two_Floating_Point_Numbers.c
  *
  *  Created on: Sep 13, 2024
  *      Author: Abdulrhman Alaa-Eldin
