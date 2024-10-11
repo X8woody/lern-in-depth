@@ -22,9 +22,9 @@ int main()
 	fflush(stdout);
 	scanf("%f",&Ar);
 	int k = Ar;
-	if(k != 0)
+	if(k != 0 && k > 0)
 		printf("Area = %0.2f",__Area_Circle__(Ar));
 	else
-		printf("Enter a number !! not Zero not characters");
+		printf("Enter a positive number !! not Zero not characters");
 	return 0;
 }
