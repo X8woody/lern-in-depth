@@ -32,7 +32,7 @@ int main()
 	printf("\nThe elements of array in reverse order are : \n\n");
 	while(p_str >= str)
 	{
-		printf("element - %d : %c\n\n",i--+1,*p_str);
+		printf("element - %d : %c\n\n",i-- + 1,*p_str);
 		p_str--;
 	}
 	return 0 ;
