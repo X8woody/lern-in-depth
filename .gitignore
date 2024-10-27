@@ -5,7 +5,7 @@ Debug/
 .cproject
 .project
 .metadata
-.ld
+*.ld
 /RemoteSystemsTempFiles/
 Inc/
 Src/
