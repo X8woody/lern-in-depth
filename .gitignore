@@ -6,3 +6,7 @@
 .project
 .metadata
 /RemoteSystemsTempFiles/
+/Inc/
+/Src/
+/Startup/
+.ld
