@@ -1,7 +1,7 @@
 *.tmp.driveupload
 .tmp.drivedownload
 .settings
-/Debug/
+Debug/
 .cproject
 .project
 .metadata
