@@ -21,7 +21,7 @@ $(Name_Proj).bin: $(Name_Proj).elf
 $(Name_Proj).elf: $(OBJ) $(AS_OBJ)
 	$(CC)ld.exe  -T linker_script.ld $(LIBS) $(OBJ) $(AS_OBJ) -o $@ $(MAP)
 
-startup.o: startup.s
+%.o: %.s
 	$(CC)as.exe $(CFLAG) $< -o $@ 
 
 %.o: %.c
