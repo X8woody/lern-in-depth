@@ -1,0 +1,34 @@
+Symbols from startup.o:
+
+Name                  Value   Class        Type         Size     Line  Section
+
+_Default_Handler    |00000006|   t  |              FUNC|        |     |.text
+_reset_handler      |00000000|   t  |            NOTYPE|        |     |.text
+main                |        |   U  |            NOTYPE|        |     |*UND*
+
+
+
+
+
+Symbols from main.o:
+
+Name                  Value   Class        Type         Size     Line  Section
+
+GPIO_CRH_REG        |00000000|   D  |            OBJECT|00000004|     |.data
+GPIO_ODR_REG        |00000004|   D  |            OBJECT|00000004|     |.data
+main                |00000000|   T  |              FUNC|00000074|     |.text
+
+
+
+
+
+
+Symbols from STM32F103.elf:
+
+Name                  Value   Class        Type         Size     Line  Section
+
+_Default_Handler    |080000c6|   t  |              FUNC|        |     |.text
+_reset_handler      |080000c0|   t  |            NOTYPE|        |     |.text
+GPIO_CRH_REG        |080000c8|   D  |            OBJECT|00000004|     |.data
+GPIO_ODR_REG        |080000cc|   D  |            OBJECT|00000004|     |.data
+main                |0800004c|   T  |              FUNC|00000074|     |.text
