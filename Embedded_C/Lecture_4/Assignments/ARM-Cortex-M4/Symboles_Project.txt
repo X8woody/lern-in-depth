@@ -1,0 +1,74 @@
+Symbols from startup.o:
+
+Name                  Value   Class        Type         Size     Line  Section
+
+_BusFault_handler   |00000088|   W  |              FUNC|0000000c|     |.text
+_DebugMonitor_Handler|00000088|   W  |              FUNC|0000000c|     |.text
+_Default_Handler    |00000088|   T  |              FUNC|0000000c|     |.text
+_E_Bss              |        |   U  |            NOTYPE|        |     |*UND*
+_E_Data             |        |   U  |            NOTYPE|        |     |*UND*
+_E_Text             |        |   U  |            NOTYPE|        |     |*UND*
+_HardFault_handler  |00000088|   W  |              FUNC|0000000c|     |.text
+_IRQ0               |00000088|   W  |              FUNC|0000000c|     |.text
+_IRQ1               |00000088|   W  |              FUNC|0000000c|     |.text
+_IRQ2               |00000088|   W  |              FUNC|0000000c|     |.text
+_MemManage_handler  |00000088|   W  |              FUNC|0000000c|     |.text
+_NMI_handler        |00000088|   W  |              FUNC|0000000c|     |.text
+_PendSV_Handler     |00000088|   W  |              FUNC|0000000c|     |.text
+_Reserved_handler   |00000088|   W  |              FUNC|0000000c|     |.text
+_reset_handler      |00000000|   T  |              FUNC|00000088|     |.text
+_S_Bss              |        |   U  |            NOTYPE|        |     |*UND*
+_S_Data             |        |   U  |            NOTYPE|        |     |*UND*
+_SVCall_Handler     |00000088|   W  |              FUNC|0000000c|     |.text
+_SysTick_Handler    |00000088|   W  |              FUNC|0000000c|     |.text
+_UsageFault_handler |00000088|   W  |              FUNC|0000000c|     |.text
+g_p_fnc             |00000000|   R  |            OBJECT|00000048|     |.vectors
+main                |        |   U  |            NOTYPE|        |     |*UND*
+Stack_Top           |00000000|   b  |            NOTYPE|00000400|     |.bss
+
+
+
+
+
+
+Symbols from main.o:
+
+Name                  Value   Class        Type         Size     Line  Section
+
+main                |00000000|   T  |              FUNC|0000008c|     |.text
+
+
+
+
+
+
+
+
+Symbols from unit3_L4_cortexM4.elf:
+
+Name                  Value   Class        Type         Size     Line  Section
+
+_BusFault_handler   |0000015c|   W  |              FUNC|0000000c|     |.text
+_DebugMonitor_Handler|0000015c|   W  |              FUNC|0000000c|     |.text
+_Default_Handler    |0000015c|   T  |              FUNC|0000000c|     |.text
+_E_Bss              |20000400|   B  |            NOTYPE|        |     |.bss
+_E_Data             |20000000|   T  |            NOTYPE|        |     |.text
+_E_Text             |00000168|   T  |            NOTYPE|        |     |.text
+_HardFault_handler  |0000015c|   W  |              FUNC|0000000c|     |.text
+_IRQ0               |0000015c|   W  |              FUNC|0000000c|     |.text
+_IRQ1               |0000015c|   W  |              FUNC|0000000c|     |.text
+_IRQ2               |0000015c|   W  |              FUNC|0000000c|     |.text
+_MemManage_handler  |0000015c|   W  |              FUNC|0000000c|     |.text
+_NMI_handler        |0000015c|   W  |              FUNC|0000000c|     |.text
+_PendSV_Handler     |0000015c|   W  |              FUNC|0000000c|     |.text
+_Reserved_handler   |0000015c|   W  |              FUNC|0000000c|     |.text
+_reset_handler      |000000d4|   T  |              FUNC|00000088|     |.text
+_S_Bss              |20000000|   B  |            NOTYPE|        |     |.bss
+_S_Data             |20000000|   T  |            NOTYPE|        |     |.text
+_SVCall_Handler     |0000015c|   W  |              FUNC|0000000c|     |.text
+_SysTick_Handler    |0000015c|   W  |              FUNC|0000000c|     |.text
+_UsageFault_handler |0000015c|   W  |              FUNC|0000000c|     |.text
+g_p_fnc             |00000000|   T  |            OBJECT|00000048|     |.text
+main                |00000048|   T  |              FUNC|0000008c|     |.text
+Stack_Top           |20000000|   b  |            NOTYPE|00000400|     |.bss
+
