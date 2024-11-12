@@ -1,3 +1,0 @@
-00000000 T main
-00000000 D string
-         U uart_send_data
