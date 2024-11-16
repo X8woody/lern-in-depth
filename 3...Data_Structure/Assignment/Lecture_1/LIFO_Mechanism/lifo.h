@@ -12,8 +12,15 @@
 /*====================Macros========================*/
 
 // Configurations from User.
+// data type of each elements in the buffer.
 #define DataType   uint32_t
+//define width of the buffer
 #define Length_Buf    5
+
+/*====================Global_Variables========================*/
+
+//create a global buffer which compatible with data type in driver.
+DataType Buffer[Length_Buf];
 
 /*====================Type_Definitions========================*/
 

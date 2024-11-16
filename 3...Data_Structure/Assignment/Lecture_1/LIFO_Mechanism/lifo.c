@@ -17,7 +17,7 @@
 
 LIFO_Status LIFO_Buf_Init(LIFO_BASE_t* PLIFO, DataType* P_Buf, uint32_t length)
 {
-	//check if buffer is already exit or not.
+	//check if buffer is already exist or not.
 	if(P_Buf == NULL)
 		return LIFO_Error;
 
@@ -30,7 +30,7 @@ LIFO_Status LIFO_Buf_Init(LIFO_BASE_t* PLIFO, DataType* P_Buf, uint32_t length)
 
 LIFO_Status LIFO_AddData(LIFO_BASE_t* PLIFO, DataType temp)
 {
-	//check if LIFO is already exit or not.
+	//check if LIFO is already pointing to a buffer or not.
 	if(!PLIFO->Base || !PLIFO->Head)
 	{
 		return LIFO_Error;
@@ -49,7 +49,7 @@ LIFO_Status LIFO_AddData(LIFO_BASE_t* PLIFO, DataType temp)
 
 LIFO_Status LIFO_GetData(LIFO_BASE_t* PLIFO, DataType* temp)
 {
-	//check if LIFO is already exit or not.
+	//check if LIFO is already exist or not.
 	if(!PLIFO->Base || !PLIFO->Head)
 	{
 		return LIFO_Error;

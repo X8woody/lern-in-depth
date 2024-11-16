@@ -12,8 +12,6 @@
 
 /*====================Global_Variables========================*/
 
-DataType Buffer[Length_Buf];
-
 /*====================MAIN_APPLICATION========================*/
 
 int main()
@@ -26,7 +24,7 @@ int main()
 	{
 		if(LIFO_AddData(P_LIFO_Buffer, i) == LIFO_noError)
 		{
-			printf("%u\n",Buffer[i]);
+			printf("Added Data: %u\n",Buffer[i]);
 			fflush(stdin);
 			fflush(stdout);
 		}
@@ -35,7 +33,7 @@ int main()
 	{
 		if(LIFO_GetData(P_LIFO_Buffer,&temp) == LIFO_noError)
 		{
-			printf("\t%u\n",temp);
+			printf("\tGetting Data: %u\n",temp);
 			fflush(stdin);
 			fflush(stdout);
 		}
