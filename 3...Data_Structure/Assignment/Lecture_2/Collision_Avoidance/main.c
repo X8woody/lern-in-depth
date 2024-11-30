@@ -36,11 +36,6 @@ int main()
 		CA_state();						//Handling between DC_motor and Ultra_Sonic
 		DC_state();
 		US_state();
-		CA_state();
-		DC_state();
-		US_state();
-		CA_state();
-		DC_state();
 	}
 	return 0;
 }
