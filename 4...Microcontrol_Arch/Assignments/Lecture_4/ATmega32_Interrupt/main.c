@@ -10,23 +10,25 @@
 #include <avr/interrupt.h>   
 
 /*
-#define SREG_Base		0x3F
-#define SREG			*((volatile unsigned int *)(SREG_Base + 0x5F))
+#define IO_BASE       		0x20
 
-#define MCUCR_Base		0x35
-#define MCUCR		*((volatile unsigned int *)(MCUCR_Base + 0x55))
+#define SREG_Offset			0x3F
+#define SREG				*((volatile unsigned int *)(IO_BASE + SREG_Offset))
 
-#define GICR_Base		0x3B
-#define GICR		*((volatile unsigned int *)(GICR_Base + 0x5B))
+#define MCUCR_Offset		0x35
+#define MCUCR				*((volatile unsigned int *)(IO_BASE + MCUCR_Offset))
 
-#define GIFR_Base		0x3A
-#define GIFR		*((volatile unsigned int *)(GIFR_Base + 0x5A))
+#define GICR_Offset			0x3B
+#define GICR				*((volatile unsigned int *)(IO_BASE + GICR_Offset))
 
-#define DDRD_Base		0x11
-#define DDRD		*((volatile unsigned int *)(DDRD_Base + 0x31))
+#define GIFR_Offset			0x3A
+#define GIFR				*((volatile unsigned int *)(IO_BASE + GIFR_Offset))
 
-#define PORTD_Base		0x12
-#define PORTD		*((volatile unsigned int *)(PORTD_Base + 0x32))
+#define DDRD_Offset			0x11
+#define DDRD				*((volatile unsigned int *)(IO_BASE + DDRD_Offset))
+
+#define PORTD_Offset		0x12
+#define PORTD				*((volatile unsigned int *)(IO_BASE + PORTD_Offset))
 */
 	
 void INT0_INIT(void);
